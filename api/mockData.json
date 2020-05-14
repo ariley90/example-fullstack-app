@@ -1,0 +1,74 @@
+[
+    {
+       "product_name": "Nike Air VaporMax Plus",
+       "category": "sports",
+       "size": "7",
+       "colour": "black",
+       "status": "IN_QUEUE",
+       "customer_initials": "AR"
+    },
+    {
+       "product_name": "adidas Originals ZX 750",
+       "category": "sports",
+       "size": "8",
+       "colour": "black",
+       "status": "IN_QUEUE",
+       "customer_initials": "RR"
+    },
+    {
+       "product_name": "adidas Originals Gazelle",
+       "category": "sports",
+       "size": "9",
+       "colour": "black",
+       "status": "IN_QUEUE",
+       "customer_initials": "AR"
+    },
+    {
+       "product_name": "Vans Old Skool",
+       "category": "sports",
+       "size": "7",
+       "colour": "black",
+       "status": "OUT_OF_STOCK",
+       "customer_initials": "DH"
+    },
+    {
+       "product_name": "New Balance 574",
+       "category": "sports",
+       "size": "8",
+       "colour": "black",
+       "status": "ON_THE_WAY",
+       "customer_initials": "AR"
+    },
+    {
+       "product_name": "Nike Cortez Ultra Moire",
+       "category": "sports",
+       "size": "6",
+       "colour": "black",
+       "status": "ON_THE_WAY",
+       "customer_initials": "PP"
+    },
+    {
+       "product_name": "Air Max",
+       "category": "sports",
+       "size": "4",
+       "colour": "black",
+       "status": "READY_TO_TRY",
+       "customer_initials": "AJ"
+    },
+    {
+       "product_name": "Nike SB Charge Solarsoft",
+       "category": "sports",
+       "size": "8",
+       "colour": "white",
+       "status": "IN_QUEUE",
+       "customer_initials": "TS"
+    },
+    {
+       "product_name": "Classicx",
+       "category": "sports",
+       "size": "9",
+       "colour": "black",
+       "status": "OUT_OF_STOCK",
+       "customer_initials": "AR"
+    }
+ ]

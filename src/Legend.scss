@@ -1,0 +1,46 @@
+@import "colours.scss";
+
+.Legend{
+  font-size: 0.7rem;
+  font-family: 'light';
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+  .item{
+    border-radius: 2px;
+    padding: 8px;
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    
+    &:hover{
+      background-color: rgba(white, 0.3);
+    }
+
+    .try, .way, .queue, .out {
+      display: inline-block;
+      width: 20px;
+      height:20px;
+      background-color: $ready;
+      border-radius: 20px;
+      margin-right: 10px;
+      border: 1px solid white;
+    }
+
+    .way {
+      background-color: $transit;
+    }
+
+    .queue{
+      background-color: $queue;
+    }
+
+    .out {
+      background-color: $out;
+    }
+  }
+
+
+}
