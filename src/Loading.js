@@ -3,8 +3,8 @@ import './Loading.scss';
 
 function Loading() {
     return (
-        <div className='loading'>
-            <div className='spinner'></div>
+        <div className='Loading'>
+            <div className='Loading__spinner'></div>
             <span>Loading...</span>
         </div>
     )

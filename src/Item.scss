@@ -1,0 +1,51 @@
+@import "colours.scss";
+
+.Item {
+    height:20%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 2px solid $highlight;
+    
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'bold';
+
+    &__name {
+      color: white;
+    }
+
+    img {
+      background-color: white;
+      border-radius: 5px;
+    }
+
+    &--READY_TO_TRY {
+      border-left: 15px solid $ready;
+    }
+
+    &--ON_THE_WAY {
+      border-left: 15px solid $transit;
+    }
+
+    &--IN_QUEUE {
+      border-left: 15px solid $queue;
+    }
+
+    &--OUT_OF_STOCK {
+      border-left: 15px solid $out;
+    }
+    &__category, &__size, &__colour {
+      color: $highlight;
+      text-transform: capitalize;
+      font-size: 0.9rem;
+    }
+
+    &__initials {
+      padding: 10px;
+      border-radius: 5px;
+      border: 2px solid $highlight;
+      text-transform: uppercase;
+      font-family: 'bold';
+    }
+  }

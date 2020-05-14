@@ -7,7 +7,7 @@
   text-transform: uppercase;
   display: flex;
   justify-content: flex-end;
-  .item{
+  &__Item{
     border-radius: 2px;
     padding: 8px;
     cursor: pointer;
