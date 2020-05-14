@@ -51,31 +51,5 @@ context('Dashboard', () => {
       cy.tick(10000);
       cy.contains('02|03'); 
     });
-
-    xit('should update data every 30 seconds', () => {
-      cy.get('.way').click();
-      
-      // cy.contains('01|03');
-      // cy.exec('npm run create-test-data').then(() => {
-        
-      // });
-      // cy.tick(31000);
-      // cy.contains('01|05'); 
-      // cy.get('.PaginatedList__Icons > :nth-child(3)').click();
-      cy.get('.Item').should('have.length',2);
-      cy.request('POST','http://localhost:5000/create',    {
-        "product_name": "Vans",
-        "category": "sports",
-        "size": "6",
-        "colour": "Gray",
-        "status": "ON_THE_WAY",
-        "customer_initials": "KO"
-      });
-        cy.clock();
-        cy.wait(30000);
-        // cy.get('.PaginatedList__Icons > :nth-child(3)').click();
-        cy.get('.Item').should('have.length',3);
-
-    });
   })
   

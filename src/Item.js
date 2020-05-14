@@ -1,8 +1,8 @@
 import React from 'react';
 import Logo from './logo.svg';
 
-import 'Item.scss';
-import 'layout.scss';
+import './Item.scss';
+import './Layout.scss';
 
 function Item({data}) {
     return (

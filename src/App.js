@@ -9,10 +9,6 @@ function App() {
 
   useEffect(() => {
     getData().then(data => setFetchedData(data));
-    // const interval = setInterval(() => {
-    //   getData().then(data => setFetchedData(data));
-    // }, 10000);
-    // return () => clearInterval(interval);
   }, []);
 
   return (
