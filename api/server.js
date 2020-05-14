@@ -21,13 +21,6 @@ app.use(bodyParser.json());
 app.post('/create', (req, res) => {
     const newItem = new ItemModel(req.body);
     newItem.save(err => {
-        console.log('CREATEDDDDDDDDDDDDDDDDDDDDDD');
-        console.log('CREATEDDDDDDDDDDDDDDDDDDDDDD');
-        console.log('CREATEDDDDDDDDDDDDDDDDDDDDDD');
-        console.log('CREATEDDDDDDDDDDDDDDDDDDDDDD');
-        console.log('CREATEDDDDDDDDDDDDDDDDDDDDDD');
-        console.log('CREATEDDDDDDDDDDDDDDDDDDDDDD');
-        
         return err ? res.status(400).send(err) : res.sendStatus(201);
     });
 });
